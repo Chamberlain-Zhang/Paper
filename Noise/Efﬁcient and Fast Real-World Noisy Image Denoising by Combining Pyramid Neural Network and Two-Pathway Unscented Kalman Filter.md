@@ -10,3 +10,5 @@
 
 > **Kalman filter:**
 > [  *How a Kalman filter works, in pictures !!!*](https://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/)
+
+![image](https://ieeeaccess.ieee.org/wp-content/uploads/2020/11/20-PUB-252-Open-Access-Carousel-Image-Edit-1505x723-1.jpg)
