@@ -5,19 +5,12 @@ TV is essentially the L1 of the gradient magnitude. The gradient magnitude can b
 The two most common ones are using the Euclidean norm and the   L1  norm. In the Euclidean 2D case we have
 
 $$
-u = \sqrt{4-3}
-$$
-
-$$
-|\triangledown u|_ {2}=\sqrt{\left(u_{x}\right)^{2}+\left(u_{y}\right)^{2}}
+|\nabla u|_ {2}=\sqrt{\left(u_{x}\right)^{2}+\left(u_{y}\right)^{2}}
 $$
 
 In the L1 case we have
 
 $$
-|\nabla u_{2}|= u_{x} + u_{y}
+|\nabla u|_ {2}=\sqrt{\left(u_{x}\right)^{2}+\left(u_{y}\right)^{2}}
 $$
 
-$$
-|u| = \sqrt{4-3}
-$$
