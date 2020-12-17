@@ -38,7 +38,7 @@ we use the information from both Vb and N to perform the smoothing.
 The image $N$ is monochromic and contains no color information. 
 Therefore, we convert image $V$ from RGB color space to YIQ color space and denote its intensity (Y channel) and color components (I and Q channels) as $V_{I}$ and $V_{C}$. 
 Similarly, we denote the intensity and color components of image $V_{b}$ as $V^b_I$ and $V^b_C$. We extend the normal WLS smooting and apply it on $V_{I}$. 
-The new smoothing has the same form with Equ.1. We combine the gradients of ${V^{b}}_ I$ and $N$, then define the new smoothness weights as,
+The new smoothing has the same form with Equ.1. We combine the gradients of $V^b_I$ and $N$, then define the new smoothness weights as,
 
 $$
 \eqalignno{&a_{x,p}^{nr}=(\vert {\partial\log(N)\over \partial
