@@ -25,6 +25,6 @@ $$
 where $\epsilon$ is a small constant (typically 0.0001) to avoid division by zero. $\alpha$ controls the sensitivity to gradients of $V$.
 Typically, its value ranges between 1.2 and 2.0.
 
-==We apply the normal WLS smoothing to V in each RGB color channel. The value of λ depends on the noise level of the image V.== 
-==For a higher noise level, λ is set larger.== Using normal WLS smoothing, we can remove the noise in visible image V to some extend.
+ == We apply the normal WLS == smoothing to V in each RGB color channel. The value of λ depends on the noise level of the image V.
+For a higher noise level, λ is set larger. Using normal WLS smoothing, we can remove the noise in visible image V to some extend.
 However, as the noise level varies in different regions of the image, some regions may be over-smoothened.
