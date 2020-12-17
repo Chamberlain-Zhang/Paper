@@ -13,7 +13,7 @@ V^{b}=\arg_{V^{b}}\min
 \partial x})_ {p}^{2}+a_{y,p}({\partial V^{b}\over \partial y})_ {p}^{2}))
 $$
 
-where the subscript $p$ denotes the pixel location and λ balances between the two terms. 
+where the subscript $p$ denotes the pixel location and $\lambda$ balances between the two terms. 
 For normal WLS smoothing, the spatially varying smoothness weights $a_{x,p}$ and $a_{y,p}$ are defined as follows:
 
 $$
@@ -21,3 +21,6 @@ $$
 a_{y,p}^{b}=(\vert {\partial\log(V)\over \partial y}\vert
 _ {p}^{\alpha}+\epsilon)^{-1},}
 $$
+
+where $\epsilon$ is a small constant (typically 0.0001) to avoid division by zero. $\alpha$ controls the sensitivity to gradients of $V$.
+Typically, its value ranges between 1.2 and 2.0.
