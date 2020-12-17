@@ -15,7 +15,7 @@ $$
 In the L1 case we have
 
 $$
-\triangledown u_{2} = u_{x} + u_{y}
+\partial u_{2} = u_{x} + u_{y}
 $$
 
 $$
