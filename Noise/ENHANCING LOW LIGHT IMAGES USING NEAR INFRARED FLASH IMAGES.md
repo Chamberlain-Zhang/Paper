@@ -19,7 +19,7 @@ For normal WLS smoothing, the spatially varying smoothness weights $a_{x,p}$ and
 $$
 \eqalignno{a_{x,p}^{b}=(\vert {\partial\log(V)\over \partial x}\vert _ {p}^{\alpha}+\epsilon)^{-1},\cr
 a_{y,p}^{b}=(\vert {\partial\log(V)\over \partial y}\vert
-_ {p}^{\alpha}+\epsilon)^{-1}, &\hbox{(2)}}
+_ {p}^{\alpha}+\epsilon)^{-1},  &\hbox{(2)}}
 $$
 
 where $\epsilon$ is a small constant (*typically 0.0001*) to avoid division by zero. $\alpha$ controls the sensitivity to gradients of $V$.
@@ -37,7 +37,7 @@ we use the information from both Vb and N to perform the smoothing.
 
 The image $N$ is monochromic and contains no color information. 
 Therefore, we convert image $V$ from RGB color space to YIQ color space and denote its intensity (Y channel) and color components (I and Q channels) as $V_{I}$ and $V_{C}$. 
-Similarly, we denote the intensity and color components of image $V_{b}$ as ${V^{b}}_I$ and ${V^{b}}_C$ . We extend the normal WLS smooting and apply it on $V_{I}$. 
+Similarly, we denote the intensity and color components of image $V_{b}$ as ${V^{b}}_I$ and $V$. We extend the normal WLS smooting and apply it on $V_{I}$. 
 The new smoothing has the same form with Equ.1. We combine the gradients of ${V^{b}}_I$ and $N$, then define the new smoothness weights as,
 
 $$
