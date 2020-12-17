@@ -1,1 +1,3 @@
-$|\nabla u|_{2}=\sqrt{\left(u_{x}\right)^{2}+\left(u_{y}\right)^{2}}$
+$$
+|u|_{2}=\sqrt{(u_{x})^{2}+(u_{y})^{2}}
+$$
