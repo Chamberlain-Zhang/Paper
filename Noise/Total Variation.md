@@ -9,13 +9,13 @@ u = \sqrt{4-3}
 $$
 
 $$
-|\triangledown u|_{2}=\sqrt{\left(u_{x}\right)^{2}+\left(u_{y}\right)^{2}}
+|\triangledown u|_ {2}=\sqrt{\left(u_{x}\right)^{2}+\left(u_{y}\right)^{2}}
 $$
 
 In the L1 case we have
 
 $$
-|\nabla u _{2}|= u_{x} + u_{y}
+|\nabla u_{2}|= u_{x} + u_{y}
 $$
 
 $$
