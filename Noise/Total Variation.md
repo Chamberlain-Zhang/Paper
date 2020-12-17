@@ -6,7 +6,9 @@ The two most common ones are using the Euclidean norm and the   L1  norm. In the
 $$
 |\nabla u|_{2}=\sqrt{\left(u_{x}\right)^{2}+\left(u_{y}\right)^{2}}
 $$
+
 In the L1 case we have:
+
 $$
 |\nabla u|_{2} = |{u_{x}|+|u_{y}|
 $$
