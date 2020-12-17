@@ -13,3 +13,7 @@ In the L1 case we have:
 $
 |\nabla u|_{2} = |{u_{x}|+|u_{y}|
 $
+
+$$
+u = 4
+$$
