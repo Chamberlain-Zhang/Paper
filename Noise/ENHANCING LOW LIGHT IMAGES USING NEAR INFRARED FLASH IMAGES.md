@@ -46,7 +46,8 @@ x}\cdot{\partial log(V_{I}^{b})\over\partial x}\vert
 ^{\alpha}+\epsilon)^{-1},\cr &a_{y,p}^{nr}=(\vert {\partial\log(N)\over \partial y}\cdot{\partial log(V_{I}^{b})\over \partial y}\vert ^{\alpha}+\epsilon)^{-1}, &\hbox{(3)}}
 $$
 
-
+where $\vert \cdot \vert$ denotes scalar multiplication. Because the smoothing uses the information from both V and N, we call it dual WLS smoothing. 
+The output of dual WLS smoothing is the noise reduced intensity component of the visible image, denoted by $V^{nr}_I $.
 
 
 
