@@ -15,7 +15,7 @@ $$
 In the L1 case we have
 
 $$
-\vert {\nabla u _{2}} = u_{x} + u_{y}
+\vert{\nabla u _{2}} = u_{x} + u_{y}
 $$
 
 $$
