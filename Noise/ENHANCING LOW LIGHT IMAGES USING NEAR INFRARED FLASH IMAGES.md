@@ -3,7 +3,7 @@
 <p align='center'> IEEE International Conference on Image Processing</p>
 
 ## Denoising
-Our visible ambient image denoising builds on [weighted least squares (WLS) smoothing]().
+Our visible ambient image denoising builds on [weighted least squares (WLS) smoothing](https://en.wikipedia.org/wiki/Weighted_least_squares).
 Given an image $V$, the WLS smoothing seeks a new image $V^{b}$, which is as close as possible to $V$, 
 and is also as smooth as possible everywhere except at significant gradient locations in $V$.
 Formally, $V^{b}$ can be expressed as
@@ -19,5 +19,5 @@ For normal WLS smoothing, the spatially varying smoothness weights $a_{x,p}$ and
 $$
 \eqalignno{a_{x,p}^{b}=(\vert {\partial\log(V)\over \partial x}\vert _ {p}^{\alpha}+\epsilon)^{-1},\cr
 a_{y,p}^{b}=(\vert {\partial\log(V)\over \partial y}\vert
-_ {p}^{\alpha}+\epsilon)^{-1}}
+_ {p}^{\alpha}+\epsilon)^{-1},}
 $$
