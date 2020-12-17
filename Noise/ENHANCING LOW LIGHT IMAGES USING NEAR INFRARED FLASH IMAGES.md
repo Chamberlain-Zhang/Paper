@@ -8,9 +8,9 @@ Given an image $V$, the WLS smoothing seeks a new image $V^{b}$, which is as clo
 and is also as smooth as possible everywhere except at significant gradient locations in $V$.
 Formally, $V^{b}$ can be expressed as
 $$
-V^{b}=\arg_{V^{b}}\min
+eqalignno{V^{b}=\arg_{V^{b}}\min
 \sum_{p}((V_{p}^{b}-V_{p})^{2}+\lambda(a_{x,p}({\partial V^{b}\over
-\partial x})_ {p}^{2}+a_{y,p}({\partial V^{b}\over \partial y})_ {p}^{2})), \eqno\hbox{(1)}
+\partial x})_ {p}^{2}+a_{y,p}({\partial V^{b}\over \partial y})_ {p}^{2})), \hbox{(1)}}
 $$
 
 where the subscript $p$ denotes the pixel location and $\lambda$ balances between the two terms. 
