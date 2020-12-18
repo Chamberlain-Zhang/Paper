@@ -43,6 +43,6 @@ Combining Eqn. (1) to Eqn. (3), we have:
 
 $$
 \begin{equation}
-x \sim (g\alpha)\mathcal P\left( \frac {x^\ast}{g\alpha} \right) + \mathcal N\left( 0, g_2 \delta ^2_d + \delta ^2_r\right)
+x \sim (g\alpha)\mathcal P\left( \frac{x^\ast}{g\alpha} \right) + \mathcal N\left( 0, g_2 \delta ^2_d + \delta ^2_r\right)
 \begin{equation}
 $$
