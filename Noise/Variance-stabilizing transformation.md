@@ -56,6 +56,5 @@ $$
 \end{equation}
 $$
 
-Note that both $$k and $\delta^2$ are related to $g$, which is determined by the ISO setting of the camera.
+Note that both $k$ and $\delta^2$ are related to $g$, which is determined by the ISO setting of the camera.
 
-$$
