@@ -42,7 +42,5 @@ $$
 Combining Eqn. (1) to Eqn. (3), we have:
 
 $$
-\begin{equation}
-x\sim
-\begin{equation}
+x\sim(g\alpha)\mathcal P(\frac{x^\ast}{g\alpha})+\mathcal N(0, g_2 \delta^2_d + \delta^2_r)
 $$
