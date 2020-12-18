@@ -43,6 +43,6 @@ Combining Eqn. (1) to Eqn. (3), we have:
 
 $$
 \begin{equation}
-x\sim(g\alpha)
+x\sim
 \begin{equation}
 $$
