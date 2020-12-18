@@ -30,4 +30,4 @@ $$
 x = g(\alpha u + n_d) + n_r
 \end{equation}
 
-where $u$ denotes the actual collected amount of photons, and $n_d \sim N(\theta,σ^2_d)$ and $n_r \sim N(\theta,σ^2_r)$ are Gaussian noise before and after applying the analog gain. Furthermore, it is demonstrated in [14] that $u$ obeys a Poisson distribution of $u^\ast$, given by 
+where $u$ denotes the actual collected amount of photons, and $n_d \sim \mathcal N(\theta,σ^2_d)$ and $n_r \sim \mathcal N(\theta,σ^2_r)$ are Gaussian noise before and after applying the analog gain. Furthermore, it is demonstrated in [14] that $u$ obeys a Poisson distribution of $u^\ast$, given by 
