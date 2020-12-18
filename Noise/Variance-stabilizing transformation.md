@@ -31,7 +31,7 @@ x = g(\alpha u + n_d) + n_r
 \end{equation}
 $$
 
-where $u$ denotes the actual collected amount of photons, and $n_d \sim \mathcal N(\theta,σ^2_d)$ and $n_r \sim \mathcal N(\theta,σ^2_r)$ are Gaussian noise before and after applying the analog gain. Furthermore, it is demonstrated in [14] that $u$ obeys a Poisson distribution of $u^\ast$, given by 
+where $u$ denotes the actual collected amount of photons, and $n_d \sim \mathcal N(\theta,\delta^2_d)$ and $n_r \sim \mathcal N(\theta,\delta^2_r)$ are Gaussian noise before and after applying the analog gain. Furthermore, it is demonstrated in [14] that $u$ obeys a Poisson distribution of $u^\ast$, given by 
 
 $$
 \begin{equation}
@@ -43,16 +43,16 @@ Combining Eqn. (1) to Eqn. (3), we have:
 
 $$
 \begin{equation}
-{x\sim(g\alpha)\mathcal P(\frac{x^\ast}{g\alpha})+\mathcal N(0, g^2 \theta^2_d + \theta^2_r)}
+{x\sim(g\alpha)\mathcal P(\frac{x^\ast}{g\alpha})+\mathcal N(0, g^2 \delta^2_d + \delta^2_r)}
 \end{equation}
 $$
 
 This is consistent with the Poisson-Gaussian noise model that has been extensively studied in previous work [16,27].
-This formulation can be further simpliﬁed by replacing $k=g\alpha$ and $\theta^2=g^2 \theta^2_d + \theta^2_r$ :
+This formulation can be further simpliﬁed by replacing $k=g\alpha$ and $\delta^2=g^2 \delta^2_d + \delta^2_r$ :
 
 $$
 \begin{equation}
-{x\sim k\mathcal P(\frac{x^\ast}{k})+\mathcal N(0, \theta^2)}
+{x\sim k\mathcal P(\frac{x^\ast}{k})+\mathcal N(0, \delta^2)}
 \end{equation}
 $$
 
