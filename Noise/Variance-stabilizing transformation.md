@@ -7,9 +7,8 @@
 
 ## The Noise Model
 
-![](https://www.researchgate.net/publication/344662685/figure/fig2/AS:946740739977216@1602731990078/Photon-transfer-pipeline-multiple-noise-sources-like-shot-noise-read-out-noise-and.png "Fig.1 Photon transfer pipeline: multiple noise sources like shot noise, read-out noise and thermal noise are involved along the camera pipeline. Check [14] for more details.
-")
-Fig.1 Photon transfer pipeline: multiple noise sources like shot noise, read-out noise and thermal noise are involved along the camera pipeline. Check [14] for more details.
+![](https://www.researchgate.net/publication/344662685/figure/fig2/AS:946740739977216@1602731990078/Photon-transfer-pipeline-multiple-noise-sources-like-shot-noise-read-out-noise-and.png "Fig.1 Photon transfer pipeline: multiple noise sources like shot noise, read-out noise and thermal noise are involved along the camera pipeline.")
+Fig.1 Photon transfer pipeline: multiple noise sources like shot noise, read-out noise and thermal noise are involved along the camera pipeline.
 
 A camera sensor converts the photons hitting the pixel area during the exposure time into a digitized luminance map.
 As shown in the photon transfer pipeline shown in Fig. 2, this process contains multiple stages, where each stage introduces speciﬁc noise. 
