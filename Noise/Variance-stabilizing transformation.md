@@ -43,6 +43,6 @@ Combining Eqn. (1) to Eqn. (3), we have:
 
 $$
 \begin{equation}
-x\sim(g\alpha)\mathcal P(\frac{x^\ast}{g\alpha})
+x\sim(g\alpha)
 \begin{equation}
 $$
