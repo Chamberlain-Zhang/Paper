@@ -43,6 +43,19 @@ Combining Eqn. (1) to Eqn. (3), we have:
 
 $$
 \begin{equation}
-{x\sim(g\alpha)\mathcal P(\frac{x^\ast}{g\alpha})+\mathcal N(0, g_2 \delta^2_d + \delta^2_r)}
+{x\sim(g\alpha)\mathcal P(\frac{x^\ast}{g\alpha})+\mathcal N(0, g^2 \delta^2_d + \delta^2_r)}
 \end{equation}
+$$
+
+This is consistent with the Poisson-Gaussian noise model that has been extensively studied in previous work [16,27].
+This formulation can be further simpliﬁed by replacing $k=g\alpha$ and $\delte^2=g^2 \delta^2_d + \delta^2_r$ :
+
+$$
+\begin{equation}
+{x\sim k\mathcal P(\frac{x^\ast}{k})+\mathcal N(0, \delta^2)}
+\end{equation}
+$$
+
+Note that both $$k and $\delta^2$ are related to $g$, which is determined by the ISO setting of the camera.
+
 $$
