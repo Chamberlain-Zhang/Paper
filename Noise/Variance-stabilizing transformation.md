@@ -12,5 +12,5 @@ As shown in the photon transfer pipeline shown in Fig. 2, this process contains 
 Let us ﬁrst consider an ideal system with no noise. Under the linear camera model, at each pixel, the sensor conversion is a linear ampliﬁcation as: 
 
 $$
-\eqalignno{x^\ast = g\alpha u^\ast, \hbox{(1)}}
+x^\ast = g\alpha u^\ast, \hbox{(1)}
 $$
