@@ -22,6 +22,12 @@ x^\ast = g\alpha u^\ast
 \end{equation}
 $$
 
-where u∗ is the expected number of photons hitting the pixel area, α is the quantum eﬃciency factor and g is the analog gain.
+where $u^\ast$ is the expected number of photons hitting the pixel area, $\alpha$ is the quantum eﬃciency factor and $g$ is the analog gain.
 Now considering the system noise in each step of the pipeline in Fig. 1, we have:
 
+$$
+\begin{equation}
+x = g(\alpha u + n_d) + n_r
+\end{equation}
+
+where $u$ denotes the actual collected amount of photons, and $n_d \sim N(\theta,σ^2_d)$ and $n_r \sim N(\theta,σ^2_r)$ are Gaussian noise before and after applying the analog gain. Furthermore, it is demonstrated in [14] that $u$ obeys a Poisson distribution of $u^\ast$, given by 
