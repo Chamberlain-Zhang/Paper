@@ -7,6 +7,9 @@
 
 ## The Noise Model
 
+![Fig.2](https://www.researchgate.net/publication/344662685/figure/fig2/AS:946740739977216@1602731990078/Photon-transfer-pipeline-multiple-noise-sources-like-shot-noise-read-out-noise-and.png "Photon transfer pipeline: multiple noise sources like shot noise, read-out noise and thermal noise are involved along the camera pipeline. Check [14] for more details.
+")
+
 A camera sensor converts the photons hitting the pixel area during the exposure time into a digitized luminance map.
 As shown in the photon transfer pipeline shown in Fig. 2, this process contains multiple stages, where each stage introduces speciﬁc noise. 
 Let us ﬁrst consider an ideal system with no noise. Under the linear camera model, at each pixel, the sensor conversion is a linear ampliﬁcation as: 
@@ -16,3 +19,7 @@ $$
 x^\ast = g\alpha u^\ast
 \end{equation}
 $$
+
+where u∗ is the expected number of photons hitting the pixel area, α is the quantum eﬃciency factor and g is the analog gain.
+Now considering the system noise in each step of the pipeline in Fig. 2, we have:
+
