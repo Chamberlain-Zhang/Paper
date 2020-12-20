@@ -161,7 +161,7 @@ $$
 & P\left(\frac{x^{*}}{k}\right)+\mathcal{N}\left(\frac{\sigma^{2}}{k^{2}}, \frac{\sigma^{2}}{k^{2}}\right) \\
 \approx & \mathcal{N}\left(\frac{x^{*}}{k}, \frac{x^{*}}{k}\right)+\mathcal{N}\left(\frac{\sigma^{2}}{k^{2}}, \frac{\sigma^{2}}{k^{2}}\right) \\
 =& \mathcal{N}\left(\frac{x^{*}}{k}+\frac{\sigma^{2}}{k^{2}}, \frac{x^{*}}{k} + \frac{\sigma^{2}}{k^{2}}\right) \\
-=& \mathcal{N}\left[f\left(x^{*}\right), f\left(x^{*}\right)\right]
+=& \mathcal{N}\[f\left(x^{*}\right), f\left(x^{*}\right)]
 \end{aligned}
 
 }
@@ -173,7 +173,7 @@ Combining Eqn. $\eqref{transformed noise model}$ and Eqn. $\eqref{final noise mo
 
 $$
 \begin{equation}
-f(x)=\mathcal{N}\left[f\left(x^{*}\right), f\left(x^{*}\right)\right]
+f(x)=\mathcal{N}\[f\(x^{*}\right), f\left(x^{*}\]
 \end{equation} \label{final noise model 1}
 $$
 
