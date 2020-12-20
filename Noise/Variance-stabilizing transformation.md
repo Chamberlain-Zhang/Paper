@@ -145,11 +145,13 @@ f(x) = \frac xk + \frac {\delta^2}{k^2}
 \end{equation}
 $$
 According to our noise model of Eqn. $\eqref{noise model}$
+
 $$
 \begin{equation}
 {f(x)\sim \mathcal P(\frac{x^\ast}{k})+\mathcal N(0, \delta^2)}
 \end{equation} \label{transformed noise model}
 $$
+
 To analyze this distribution, a usual simpliﬁcation is to treat the Poisson distribution $\mathcal P(\lambda)$ as a Gaussian distribution of $N(\lambda,\lambda)$. Therefore:
 
 $$
@@ -161,6 +163,7 @@ $$
 =& \mathcal{N}\left(\frac{x^{*}}{k}+\frac{\sigma^{2}}{k^{2}}, \frac{x^{*}}{k} + \frac{\sigma^{2}}{k^{2}}\right) \\
 =& \mathcal{N}\left[f\left(x^{*}\right), f\left(x^{*}\right)\right]
 \end{aligned}
+
 }
 \end{equation} \label{final noise model} 
 
