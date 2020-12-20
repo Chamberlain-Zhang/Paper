@@ -70,14 +70,13 @@ The [variance](https://brilliant.org/wiki/variance-definition/) of the Poisson d
 > \end{equation}
 > $$
 
-The proof involves the routine (but computationally intensive) calculation that $E[X^2]=\lambda^2+\lambda$. Then using the formula for [variance](https://brilliant.org/wiki/variance-properties/)
-
-$$
-\begin{equation}
-\text{Var}[X] = E[X^2]-E[X]^2,
-\end{equation}
-$$
-we have$ \text{Var}[X]=\lambda^2+\lambda-\lambda^2=\lambda$.
+> The proof involves the routine (but computationally intensive) calculation that $E[X^2]=\lambda^2+\lambda$. Then using the formula for [variance](https://brilliant.org/wiki/variance-properties/)
+> $$
+> \begin{equation}
+> \text{Var}[X] = E[X^2]-E[X]^2,
+> \end{equation}
+> $$
+> we have$ \text{Var}[X]=\lambda^2+\lambda-\lambda^2=\lambda$.
 
 
 
@@ -126,10 +125,12 @@ This formulation can be further simpliﬁed by replacing $k=g\alpha$ and $\delta
 $$
 \begin{equation}
 {x\sim k\mathcal P(\frac{x^\ast}{k})+\mathcal N(0, \delta^2)}
-\end{equation} \label{eq1}
+\end{equation} \label{noise model}
 $$
 
 Note that both $k$ and $\delta^2$ are related to $g$, which is determined by the ISO setting of the camera.
+
+
 
 
 
@@ -143,5 +144,32 @@ $$
 f(x) = \frac xk + \frac {\delta^2}{k^2}
 \end{equation}
 $$
-According to our noise model of Eqn. $\eqref{eq1}$
+According to our noise model of Eqn. $\eqref{noise model}$
+$$
+\begin{equation}
+{f(x)\sim \mathcal P(\frac{x^\ast}{k})+\mathcal N(0, \delta^2)}
+\end{equation} \label{transformed noise model}
+$$
+To analyze this distribution, a usual simpliﬁcation is to treat the Poisson distribution $\mathcal P(\lambda)$ as a Gaussian distribution of $N(\lambda,\lambda)$. Therefore:
+$$
+\begin{equation}
+{
+\begin{aligned}
+& P\left(\frac{x^{*}}{k}\right)+\mathcal{N}\left(\frac{\sigma^{2}}{k^{2}}, \frac{\sigma^{2}}{k^{2}}\right) \\
+\approx & \mathcal{N}\left(\frac{x^{*}}{k}, \frac{x^{*}}{k}\right)+\mathcal{N}\left(\frac{\sigma^{2}}{k^{2}}, \frac{\sigma^{2}}{k^{2}}\right) \\
+=& \mathcal{N}\left(\frac{x^{*}}{k}+\frac{\sigma^{2}}{k^{2}}, \frac{x^{*}}{k} + \frac{\sigma^{2}}{k^{2}}\right) \\
+=& \mathcal{N}\left[f\left(x^{*}\right), f\left(x^{*}\right)\right]
+\end{aligned}
+}
+\end{equation} \label{final noise model}
+$$
+Combining Eqn. $\eqref{transformed noise model}$ and Eqn. $\eqref{final noise model}$, the approximate distribution of $f(x)$ is: 
+$$
+\begin{equation}
+f(x)=\mathcal{N}\left[f\left(x^{*}\right), f\left(x^{*}\right)\right]
+\end{equation} \label{final noise model 1}
+$$
+Eqn. $\eqref{final noise model 1}$ indicates that the distribution of $f(x)$ only depends on $f(x^∗)$. As shown in Fig. 4, we can train a single network that takes$ f(x)$ as input and outputs $f(x^∗)$ as an estimation of $f(x^∗)$. The estimated true image value $ x^∗$ can then be computed by applying the inverted k-Sigma Transform $f^{−1}(\cdot)$ to $f(x^∗)$. ***In other words, we apply ISO-dependent transforms to the input and output of the neural network, so that the network can be trained using normalized data without considering the ISO setting.***
+
+
 
