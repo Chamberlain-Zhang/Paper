@@ -166,8 +166,7 @@ $$
 
 }
 \end{equation} \label{final noise model} 
-
- $$
+$$
 
 Combining Eqn. $\eqref{transformed noise model}$ and Eqn. $\eqref{final noise model}$, the approximate distribution of $f(x)$ is: 
 
