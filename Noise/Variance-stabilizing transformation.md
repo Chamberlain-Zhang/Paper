@@ -151,6 +151,7 @@ $$
 \end{equation} \label{transformed noise model}
 $$
 To analyze this distribution, a usual simpliﬁcation is to treat the Poisson distribution $\mathcal P(\lambda)$ as a Gaussian distribution of $N(\lambda,\lambda)$. Therefore:
+
 $$
 \begin{equation}
 {
@@ -161,14 +162,18 @@ $$
 =& \mathcal{N}\left[f\left(x^{*}\right), f\left(x^{*}\right)\right]
 \end{aligned}
 }
-\end{equation} \label{final noise model}
-$$
+\end{equation} \label{final noise model} 
+
+ $$
+
 Combining Eqn. $\eqref{transformed noise model}$ and Eqn. $\eqref{final noise model}$, the approximate distribution of $f(x)$ is: 
+
 $$
 \begin{equation}
 f(x)=\mathcal{N}\left[f\left(x^{*}\right), f\left(x^{*}\right)\right]
 \end{equation} \label{final noise model 1}
 $$
+
 Eqn. $\eqref{final noise model 1}$ indicates that the distribution of $f(x)$ only depends on $f(x^∗)$. As shown in Fig. 4, we can train a single network that takes$ f(x)$ as input and outputs $f(x^∗)$ as an estimation of $f(x^∗)$. The estimated true image value $ x^∗$ can then be computed by applying the inverted k-Sigma Transform $f^{−1}(\cdot)$ to $f(x^∗)$. ***In other words, we apply ISO-dependent transforms to the input and output of the neural network, so that the network can be trained using normalized data without considering the ISO setting.***
 
 
