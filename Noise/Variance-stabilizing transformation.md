@@ -173,8 +173,9 @@ Combining Eqn. $\eqref{transformed noise model}$ and Eqn. $\eqref{final noise mo
 
 $$
 \begin{equation}
-f(x)=\mathcal{N}\[f\(x^{*}\right), f\left(x^{*}\]
-\end{equation} \label{final noise model 1}
+f(x)=\mathcal{N}\lbrack f\(x^{* }\right), f\left(x^{* } \rbrack 
+\end{equation} 
+\label{final noise model 1}
 $$
 
 Eqn. $\eqref{final noise model 1}$ indicates that the distribution of $f(x)$ only depends on $f(x^∗)$. As shown in Fig. 4, we can train a single network that takes$ f(x)$ as input and outputs $f(x^∗)$ as an estimation of $f(x^∗)$. The estimated true image value $ x^∗$ can then be computed by applying the inverted k-Sigma Transform $f^{−1}(\cdot)$ to $f(x^∗)$. ***In other words, we apply ISO-dependent transforms to the input and output of the neural network, so that the network can be trained using normalized data without considering the ISO setting.***
