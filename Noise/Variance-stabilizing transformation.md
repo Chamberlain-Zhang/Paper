@@ -157,7 +157,7 @@ To analyze this distribution, a usual simpliﬁcation is to treat the Poisson di
 $$
 \begin{equation}
 {
-& P\left(\frac{x^{* }}{k}\right)+\mathcal{N}\left(\frac{\sigma^{2}}{k^{2}}, \frac{\sigma^{2}}{k^{2}}\right) \\
+P\left(\frac{x^{* }}{k}\right)+\mathcal{N}\left(\frac{\sigma^{2}}{k^{2}}, \frac{\sigma^{2}}{k^{2}}\right) \\
 \approx & \mathcal{N}\left(\frac{x^{* }}{k}, \frac{x^{* }}{k}\right)+\mathcal{N}\left(\frac{\sigma^{2}}{k^{2}}, \frac{\sigma^{2}}{k^{2}}\right) \\
 =& \mathcal{N}\left(\frac{x^{* }}{k}+\frac{\sigma^{2}}{k^{2}}, \frac{x^{* }}{k} + \frac{\sigma^{2}}{k^{2}}\right) \\
 =& \mathcal{N}\left[f\left(x^{* }\right), f\left(x^{* }\right)\right]
