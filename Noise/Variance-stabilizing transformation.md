@@ -173,7 +173,7 @@ Combining Eqn. $\eqref{transformed noise model}$ and Eqn. $\eqref{final noise mo
 
 $$
 \begin{equation}
-f(x)=\mathcal{N}[ f\(x^{* }\right), f\left(x^{* }\right)]
+f(x)=\mathcal{N}[ f\left(x^{* }\right), f\left(x^{* }\right)]
 \end{equation} 
 \label{final noise model 1}
 $$
