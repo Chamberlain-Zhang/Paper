@@ -159,8 +159,8 @@ $$
 {
 & P\left(\frac{x^{* }}{k}\right)+\mathcal{N}\left(\frac{\sigma^{2}}{k^{2}}, \frac{\sigma^{2}}{k^{2}}\right) \\
 \approx & \mathcal{N}\left(\frac{x^{* }}{k}, \frac{x^{* }}{k}\right)+\mathcal{N}\left(\frac{\sigma^{2}}{k^{2}}, \frac{\sigma^{2}}{k^{2}}\right) \\
-=& \mathcal{N}\left(\frac{x^{ * }}{k}+\frac{\sigma^{2}}{k^{2}}, \frac {x ^ { * }}{k} + \frac{\sigma^{2}}{k^{2}}\right) \\
-=& \mathcal{N}\[f\left(x^ { * }\right), f\left ( x ^ { * }\right)]
+=& \mathcal{N}\left(\frac{x^{* }}{k}+\frac{\sigma^{2}}{k^{2}}, \frac{x^{* }}{k} + \frac{\sigma^{2}}{k^{2}}\right) \\
+=& \mathcal{N}\left[f\left(x^{* }\right), f\left(x^{* }\right)\right]
 }
 \end{equation} \label{final noise model} 
 $$
