@@ -2,6 +2,7 @@
 
 | [*Jonathan Hui*](https://jonathan-hui.medium.com/) |
 | :------------------------------------------------: |
+|                                                    |
 
 **GAN models can suffer badly in the following areas comparing to other deep networks.**
 
