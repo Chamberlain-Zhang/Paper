@@ -4,7 +4,7 @@
 
 $$
 \begin{equation}
-L(x, \hat x) = || log(max(x, \epsilon)) - log(max(\hat x, \epsilon))||_ {1 or 2}
+L(x, \hat x) = || log(max(x, \epsilon)) - log(max(\hat x, \epsilon))||_ {1\ or\ 2}
 \end{equation}
 $$
 
