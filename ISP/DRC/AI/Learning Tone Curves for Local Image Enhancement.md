@@ -4,3 +4,4 @@
 ## ABSTRACT
 > This papar propose a local tone mapping network (LTMNet) that learns a grid of tone curves to locally enhance an image.
 
+![Overview of local image enhancement pipeline](./Images/Learning Tone Curves for Local Image Enhancement/Figure 2.png)
