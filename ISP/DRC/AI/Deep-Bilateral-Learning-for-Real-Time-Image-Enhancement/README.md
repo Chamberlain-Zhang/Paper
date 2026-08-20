@@ -12,3 +12,4 @@
 >    ![Low-level Feature](./Figure-3.png)
 > 2. **Global feature path**: comprises two strided convolutional layers followed by three fully-connected layers. Without global features path to encode global information of the input, the network can make erroneous local decisions that lead to artificts as examplified by the large-scale variations in the sky in Figure 4.
 >    ![Global Feature](./Figure-4.png)
+> 3. A sum of scaled ReLU functions with thresholds and slopes can be used to predict Tone Mapping Curve.
